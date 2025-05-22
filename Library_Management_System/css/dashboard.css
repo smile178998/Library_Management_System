@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../css/books-3110400_1280.jpg'); /* 背景图片 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+    background-color: rgba(44, 62, 80, 0.9); /* 半透明背景 */
+}
+
+.top-nav .logout-btn {
+    background-color: #e74c3c;
+}
+
+.top-nav .logout-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Sidebar Navigation */
+.side-menu {
+    background-color: rgba(52, 73, 94, 0.9);
+    min-height: 100vh;
+}
+
+.side-menu a {
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.side-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Features Section */
+.collection-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
